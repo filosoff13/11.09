@@ -9,7 +9,7 @@ $config = require_once 'config.php';
 $db = new Database($config);
 
 $query = $db->query('SELECT requests.id, offers.name, requests.price, requests.count count, operators.name op_name FROM requests LEFT JOIN offers ON requests.offer_id = offers.id LEFT JOIN operators ON requests.operator_id = operators.id WHERE count > 2 AND requests.operator_id in (10, 12)');
-print_r($query);
+// print_r($query);
 
 // $db->closeConnection();
 ?>
