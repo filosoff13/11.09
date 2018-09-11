@@ -1,0 +1,15 @@
+{
+    "name": "vitaliy/11.09.php",
+    "authors": [
+        {
+            "name": "Vitaliy Vit",
+            "email": "filosoff13@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+    	   "Dev\\": "src/"
+        }
+    },
+    "require": {}
+}
